@@ -14,7 +14,7 @@ if (usuario!="") {
     }
     
     saludar()
-    let opciones= prompt("Ingrese el juego que desee sumar al carrito de compras: \n - fifa. \n -pes. \n -uncharted. \n -dishonored. \nPresiona 0 para finalizar")
+    let opciones= prompt("Ingrese el juego que desee sumar al carrito de compras: \n- fifa. \n-pes. \n-uncharted. \n-dishonored. \nPresiona 0 para finalizar")
     while (opciones!=0) {
         switch (opciones) {
             case "fifa":
@@ -52,7 +52,7 @@ if (usuario!="") {
                 break;
         
             }
-        opciones= prompt("Ingrese el juego que desee sumar al carrito de compras: \n - fifa. \n -pes. \n -uncharted. \n -dishonored. \nPresiona 0 para finalizar")
+        opciones= prompt("Ingrese el juego que desee sumar al carrito de compras: \n- fifa. \n-pes. \n-uncharted. \n-dishonored. \nPresiona 0 para finalizar")
         
             
         
